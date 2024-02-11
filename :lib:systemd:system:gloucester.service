@@ -1,0 +1,13 @@
+[Unit]
+Description=Gloucester Service
+
+[Service]
+ExecStart=/usr/bin/sudo /usr/bin/python3 /home/USER/gloucester/main.py --username=USERNAME --password=PASSWORD --logging=INFO
+User=root
+WorkingDirectory=/home/USER/gloucester
+StandardOutput=append:/home/USER/gloucester.log
+StandardError=append:/home/USER/gloucester.log
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
