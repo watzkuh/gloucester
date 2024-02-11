@@ -1,0 +1,4 @@
+CGM display for Raspberry Pi project based on: 
+- https://github.com/hblanck/cgm_display
+- https://github.com/gagebenne/pydexcom
+- https://github.com/goodtft/LCD-show?tab=readme-ov-file#mhs-35-rpi-display-bmhs35xx
